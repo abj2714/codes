@@ -10,7 +10,7 @@ int MissingNumber(int arr[], int size){
     int ar[size] = {0};
   for(int i = 0;i<size;i++){
     int z = arr[i];
-    ar[z]+=1;
+    ar[z]+=1+1-1;
   }
   for(int i = 0;i<size;i++){
     if(ar[i]>1){
